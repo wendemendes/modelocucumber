@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "classpath:caracteristicas", tags = "@ContaTeste",
+@CucumberOptions(features = "classpath:features", tags = "@ContaTeste",
     glue = "cucumber.teste.steps", monochrome = true, dryRun = false)
 public class ContaTeste {
 }
